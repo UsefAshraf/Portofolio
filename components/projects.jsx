@@ -12,58 +12,67 @@ export default function Projects() {
   // ✅ State to toggle view
   const [showAll, setShowAll] = useState(false)
 
-  const projects = [
-    {
-      title: "prayer times",
-      description:
-        "A React app to display Islamic prayer times based on city selection using Aladhan API.",
-      image: "/prayer-times-app.png",
-      tags: ["React","Tailwind CSS","Prayer Times API"],
-      liveUrl: "https://prayer-times-app-gules.vercel.app/",
-      githubUrl: "https://github.com/UsefAshraf/prayer-times-app",
-    },
-    {
-      title: "appleax",
-      description: "simple angular project using routing.",
-      image: "/appleax.png",
-      tags: ["Angular", "Tailwind CSS"],
-      liveUrl: "https://appleax-rho.vercel.app/",
-      githubUrl: "https://github.com/UsefAshraf/appleax",
-    },
-    {
-      title: "faq-card-app",
-      description: "Frontend Mentor-inspired FAQ cards with mobile-friendly layout.",
-      image: "/faq.png",
-      tags: ["React", "Tailwind CSS", "Responsive Design"],
-      liveUrl: "https://faq-card-app.vercel.app/",
-      githubUrl: "https://github.com/UsefAshraf/faq-card-app",
-    },
-    {
-      title: "Responsive-Weather-Forecast-App-with-Geolocation-Search",
-      description:
-        "A responsive weather forecast web application using the WeatherAPI, built with HTML, CSS (Bootstrap), and JavaScript.",
-      image: "/weather-app.png",
-      tags: ["Html", "CSS", "JS"],
-      liveUrl: "https://usefashraf.github.io/Responsive-Weather-Forecast-App-with-Geolocation-Search/",
-      githubUrl: "https://github.com/UsefAshraf/Responsive-Weather-Forecast-App-with-Geolocation-Search",
-    },
-    {
-      title: "Daniels",
-      description: "Simple Responsive Daniels with HTML, CSS, Bootstrap.",
-      image: "/Daniels.png",
-      tags: ["Html", "CSS","JS"],
-      liveUrl: "https://usefashraf.github.io/Daniels/",
-      githubUrl: "https://github.com/UsefAshraf/Daniels",
-    },
-    {
-      title: "DevFolio",
-      description: "Simple Responsive Daniels with HTML, CSS, Bootstrap.",
-      image: "/Devfolio.png",
-      tags: ["Html", "CSS","JS"],
-      liveUrl: "https://usefashraf.github.io/DevFolio/",
-      githubUrl: "https://github.com/UsefAshraf/DevFolio",
-    },
-  ]
+ const projects = [
+  {
+    title: "Geo Egypt",
+    description: "An interactive map of Egypt built with React and Leaflet, displaying heritage sites and protected areas.",
+    image: "/geo-egypt.png",
+    tags: ["React", "Leaflet", "Open layers", "Tailwind CSS"],
+    liveUrl: "https://geo-egypt.vercel.app/",
+    githubUrl: "https://github.com/UsefAshraf/GeoEgypt",
+  },
+  {
+    title: "prayer times",
+    description:
+      "A React app to display Islamic prayer times based on city selection using Aladhan API.",
+    image: "/prayer-times-app.png",
+    tags: ["React","Tailwind CSS","Prayer Times API"],
+    liveUrl: "https://prayer-times-app-gules.vercel.app/",
+    githubUrl: "https://github.com/UsefAshraf/prayer-times-app",
+  },
+  {
+    title: "appleax",
+    description: "simple angular project using routing.",
+    image: "/appleax.png",
+    tags: ["Angular", "Tailwind CSS"],
+    liveUrl: "https://appleax-rho.vercel.app/",
+    githubUrl: "https://github.com/UsefAshraf/appleax",
+  },
+  {
+    title: "faq-card-app",
+    description: "Frontend Mentor-inspired FAQ cards with mobile-friendly layout.",
+    image: "/faq.png",
+    tags: ["React", "Tailwind CSS", "Responsive Design"],
+    liveUrl: "https://faq-card-app.vercel.app/",
+    githubUrl: "https://github.com/UsefAshraf/faq-card-app",
+  },
+  {
+    title: "Responsive-Weather-Forecast-App-with-Geolocation-Search",
+    description:
+      "A responsive weather forecast web application using the WeatherAPI, built with HTML, CSS (Bootstrap), and JavaScript.",
+    image: "/weather-app.png",
+    tags: ["Html", "CSS", "JS"],
+    liveUrl: "https://usefashraf.github.io/Responsive-Weather-Forecast-App-with-Geolocation-Search/",
+    githubUrl: "https://github.com/UsefAshraf/Responsive-Weather-Forecast-App-with-Geolocation-Search",
+  },
+  {
+    title: "Daniels",
+    description: "Simple Responsive Daniels with HTML, CSS, Bootstrap.",
+    image: "/Daniels.png",
+    tags: ["Html", "CSS","JS"],
+    liveUrl: "https://usefashraf.github.io/Daniels/",
+    githubUrl: "https://github.com/UsefAshraf/Daniels",
+  },
+  {
+    title: "DevFolio",
+    description: "Simple Responsive Daniels with HTML, CSS, Bootstrap.",
+    image: "/Devfolio.png",
+    tags: ["Html", "CSS","JS"],
+    liveUrl: "https://usefashraf.github.io/DevFolio/",
+    githubUrl: "https://github.com/UsefAshraf/DevFolio",
+  },
+];
+
 
   // ✅ Only show 4 if not expanded
   const displayedProjects = showAll ? projects : projects.slice(0, 4)
