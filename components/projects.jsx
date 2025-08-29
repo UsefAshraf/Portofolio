@@ -14,6 +14,14 @@ export default function Projects() {
 
  const projects = [
   {
+  title: "React Query CRUD App",
+  description: "A CRUD application built with React and React Query, demonstrating data fetching, caching, and optimistic updates with a mock JSON server.",
+  image: "/ReQuey.png",
+  tags: ["React", "React Query", "Axios", "Bootstrap"],
+  liveUrl: "https://react-query-crud-app.vercel.app/",
+  githubUrl: "https://github.com/UsefAshraf/react-query-crud-app/tree/main",
+},
+  {
     title: "Geo Egypt",
     description: "An interactive map of Egypt built with React and Leaflet, displaying heritage sites and protected areas.",
     image: "/geo-egypt.png",
