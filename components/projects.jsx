@@ -14,16 +14,36 @@ export default function Projects() {
 
  const projects = [
   {
-  title: "React Query CRUD App",
-  description: "A CRUD application built with React and React Query, demonstrating data fetching, caching, and optimistic updates with a mock JSON server.",
-  image: "/ReQuey.png",
-  tags: ["React", "React Query", "Axios", "Bootstrap"],
-  liveUrl: "https://react-query-crud-app.vercel.app/",
-  githubUrl: "https://github.com/UsefAshraf/react-query-crud-app/tree/main",
-},
+    title: "Fresh Cart Angular",
+    description:
+      "Modern E-Commerce Platform built with Angular 17+ | Features product catalog, shopping cart, wishlist, user authentication, and responsive design with Tailwind CSS.",
+    image: "/freshcart.png",
+    tags: ["Angular", "Tailwind CSS", "E-Commerce"],
+    liveUrl: "https://fresh-cart-angular-nine.vercel.app/login",
+    githubUrl: "https://github.com/UsefAshraf/fresh-cart-angular",
+  },
+  {
+    title: "Task View",
+    description:
+      "A React.js application for managing and viewing tasks with category filtering, pagination, and Supabase backend integration.",
+    image: "/taskview.png",
+    tags: ["React", "Supabase", "React Query", "Tailwind CSS"],
+    liveUrl: "https://taskview-six.vercel.app/",
+    githubUrl: "https://github.com/UsefAshraf/Task_View",
+  },
+  {
+    title: "React Query CRUD App",
+    description:
+      "A CRUD application built with React and React Query, demonstrating data fetching, caching, and optimistic updates with a mock JSON server.",
+    image: "/ReQuey.png",
+    tags: ["React", "React Query", "Axios", "Bootstrap"],
+    liveUrl: "https://react-query-crud-app.vercel.app/",
+    githubUrl: "https://github.com/UsefAshraf/react-query-crud-app/tree/main",
+  },
   {
     title: "Geo Egypt",
-    description: "An interactive map of Egypt built with React and Leaflet, displaying heritage sites and protected areas.",
+    description:
+      "An interactive map of Egypt built with React and Leaflet, displaying heritage sites and protected areas.",
     image: "/geo-egypt.png",
     tags: ["React", "Leaflet", "Open layers", "Tailwind CSS"],
     liveUrl: "https://geo-egypt.vercel.app/",
@@ -34,7 +54,7 @@ export default function Projects() {
     description:
       "A React app to display Islamic prayer times based on city selection using Aladhan API.",
     image: "/prayer-times-app.png",
-    tags: ["React","Tailwind CSS","Prayer Times API"],
+    tags: ["React", "Tailwind CSS", "Prayer Times API"],
     liveUrl: "https://prayer-times-app-gules.vercel.app/",
     githubUrl: "https://github.com/UsefAshraf/prayer-times-app",
   },
@@ -48,7 +68,8 @@ export default function Projects() {
   },
   {
     title: "faq-card-app",
-    description: "Frontend Mentor-inspired FAQ cards with mobile-friendly layout.",
+    description:
+      "Frontend Mentor-inspired FAQ cards with mobile-friendly layout.",
     image: "/faq.png",
     tags: ["React", "Tailwind CSS", "Responsive Design"],
     liveUrl: "https://faq-card-app.vercel.app/",
@@ -60,14 +81,16 @@ export default function Projects() {
       "A responsive weather forecast web application using the WeatherAPI, built with HTML, CSS (Bootstrap), and JavaScript.",
     image: "/weather-app.png",
     tags: ["Html", "CSS", "JS"],
-    liveUrl: "https://usefashraf.github.io/Responsive-Weather-Forecast-App-with-Geolocation-Search/",
-    githubUrl: "https://github.com/UsefAshraf/Responsive-Weather-Forecast-App-with-Geolocation-Search",
+    liveUrl:
+      "https://usefashraf.github.io/Responsive-Weather-Forecast-App-with-Geolocation-Search/",
+    githubUrl:
+      "https://github.com/UsefAshraf/Responsive-Weather-Forecast-App-with-Geolocation-Search",
   },
   {
     title: "Daniels",
     description: "Simple Responsive Daniels with HTML, CSS, Bootstrap.",
     image: "/Daniels.png",
-    tags: ["Html", "CSS","JS"],
+    tags: ["Html", "CSS", "JS"],
     liveUrl: "https://usefashraf.github.io/Daniels/",
     githubUrl: "https://github.com/UsefAshraf/Daniels",
   },
@@ -75,11 +98,12 @@ export default function Projects() {
     title: "DevFolio",
     description: "Simple Responsive Daniels with HTML, CSS, Bootstrap.",
     image: "/Devfolio.png",
-    tags: ["Html", "CSS","JS"],
+    tags: ["Html", "CSS", "JS"],
     liveUrl: "https://usefashraf.github.io/DevFolio/",
     githubUrl: "https://github.com/UsefAshraf/DevFolio",
   },
 ];
+
 
 
   // ✅ Only show 4 if not expanded
