@@ -25,8 +25,8 @@ export const EXPERIENCE = [
     period: "07/2026 – Present",
     location: "Cairo, Egypt",
     points: [
-      "Built and deployed a government web platform (React, Node.js) serving about 10,000 users; supported testing, bug fixes, and user feedback surveys.",
-      "Developed a SaaS e-commerce app (React, .NET) for a Bahrain-based jewellery brand serving the MENA region and the Americas.",
+      "Developed a SaaS e-commerce app (React, .NET) for a Bahrain-based jewellery brand serving customers across the MENA region and the Americas.",
+      "Worked in a team to build and deploy a large-scale web platform (React, Node.js) serving about 10,000 users; supported testing, bug fixes, and user feedback surveys.",
       "Delivered features and system integrations for EgyptAir's large-scale aviation platforms.",
       "Built a bilingual (English/Arabic) RAG assistant with Next.js, PostgreSQL + pgvector, Voyage AI, and Claude Haiku 4.5, using hybrid search, streamed answers, and a human-handoff fallback; compared Gemini, Groq, and Claude to select the best model.",
       "Developed an AI CV-screening system (Next.js) that analyzes and scores candidate CVs to support hiring.",
@@ -100,6 +100,11 @@ export const SKILLS = [
 
 export const PROFESSIONAL_PROJECTS = [
   {
+    title: "Jewellery E-Commerce SaaS",
+    description: "Multi-region e-commerce platform for a Bahrain-based jewellery brand, selling to customers across the MENA region and the Americas.",
+    tags: ["React", ".NET"],
+  },
+  {
     title: "Bilingual RAG Assistant",
     description: "English/Arabic assistant with hybrid search, streamed answers, and a human-handoff fallback. Benchmarked Gemini, Groq, and Claude to pick the best model.",
     tags: ["Next.js", "pgvector", "Voyage AI", "Claude"],
@@ -110,14 +115,9 @@ export const PROFESSIONAL_PROJECTS = [
     tags: ["Next.js", "LLMs"],
   },
   {
-    title: "Government Web Platform",
-    description: "Public-sector platform serving about 10,000 users, from build and deployment to testing and feedback surveys.",
+    title: "Large-Scale Web Platform",
+    description: "Confidential platform serving about 10,000 users, built with the team: development, deployment, testing, and user feedback.",
     tags: ["React", "Node.js"],
-  },
-  {
-    title: "Jewellery E-Commerce SaaS",
-    description: "Multi-region store for a Bahrain-based brand selling across MENA and the Americas.",
-    tags: ["React", ".NET"],
   },
   {
     title: "Car-Repair Booking Platform",

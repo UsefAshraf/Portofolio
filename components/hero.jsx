@@ -27,7 +27,8 @@ export default function Hero() {
 
         <p className="mt-6 max-w-2xl text-lg text-gray-400 leading-relaxed">
           I build production web apps and AI products with React, Next.js, Node.js, and .NET,
-          from a government platform for 10,000 users to RAG assistants powered by LLMs.
+          from an e-commerce SaaS serving customers across the MENA region and the Americas
+          to RAG assistants powered by LLMs.
         </p>
 
         <p className="mt-4 flex items-center gap-2 text-gray-500">

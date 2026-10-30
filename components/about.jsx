@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { EDUCATION } from "./data";
 
 const HIGHLIGHTS = [
-  { value: "~10K", label: "Users on a government platform I built" },
+  { value: "MENA + Americas", label: "Markets served by the e-commerce SaaS I built" },
   { value: "5", label: "Engineering roles & internships" },
   { value: "2", label: "AI products shipped (RAG, CV screening)" },
 ];
@@ -20,9 +20,10 @@ export default function About() {
           <div className="lg:col-span-3 space-y-5 text-lg text-gray-300 leading-relaxed">
             <p>
               I'm a Full Stack Software Engineer building production web apps and AI products with
-              React, Next.js, Node.js, and .NET. I've shipped a government platform for about
-              10,000 users, an e-commerce SaaS serving MENA and the Americas, and integrations for
-              EgyptAir's aviation systems.
+              React, Next.js, Node.js, and .NET. I've built an e-commerce SaaS serving customers
+              across the MENA region and the Americas, delivered integrations for EgyptAir's
+              aviation systems, and worked in teams shipping large-scale platforms for thousands
+              of users.
             </p>
             <p>
               I build LLM features end to end, from RAG pipelines with pgvector and hybrid search to
