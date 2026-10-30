@@ -85,7 +85,7 @@ export const EDUCATION = [
   {
     title: "Open-Source Applications Developer, Full-Stack Web Development",
     place: "NTI, Smart Village",
-    detail: "420-hour program · React, Next.js, Node.js, PostgreSQL, MongoDB, Docker, AWS",
+    detail: "10/2025 – 01/2026 · 420-hour program · React, Next.js, Node.js, PostgreSQL, MongoDB, Docker, AWS",
   },
 ]
 
