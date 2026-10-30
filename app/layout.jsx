@@ -1,12 +1,12 @@
 import { Inter } from "next/font/google"
 import "./globals.css"
-import { icons } from "lucide-react"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Youssef Ashraf",
-  description: "My personal portfolio showcasing projects and skills",
+  title: "Yousef Ashraf | Full Stack Software Engineer",
+  description:
+    "Full Stack Software Engineer building production web apps and AI products with React, Next.js, Node.js, and .NET.",
   icons:{
     icon:"/prof.jpg"
   }
