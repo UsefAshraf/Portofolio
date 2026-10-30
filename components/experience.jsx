@@ -11,7 +11,7 @@ export default function Experience() {
         <SectionHeading
           eyebrow="Experience"
           title="Where I've worked"
-          description="Government, aviation, e-commerce, and space-tech: production systems with real users."
+          description="E-commerce, aviation, AI, and space-tech: production systems with real users."
         />
 
         <ol className="relative border-l border-gray-800 ml-2 space-y-12">
