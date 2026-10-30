@@ -7,7 +7,7 @@ export const PROFILE = {
   location: "Cairo, Egypt",
   github: "https://github.com/UsefAshraf",
   linkedin: "https://www.linkedin.com/in/youssef-ashraf0/",
-  cv: "/Yousef-Ashraf-CV.pdf",
+  cv: "/Youssef%20Ashraf%20-%20Full%20Stack%20Developer.pdf",
   cvFileName: "Youssef Ashraf - Full Stack Developer.pdf",
 }
 
