@@ -46,7 +46,7 @@ export default function Navbar() {
             </a>
             <a
               href={PROFILE.cv}
-              download
+              download={PROFILE.cvFileName}
               className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-gray-700 text-sm text-white hover:bg-gray-800 transition-colors"
             >
               <FileText size={16} /> CV
@@ -85,7 +85,7 @@ export default function Navbar() {
               <a href={PROFILE.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white">
                 <Linkedin size={20} />
               </a>
-              <a href={PROFILE.cv} download className="inline-flex items-center gap-1.5 text-sm text-gray-300 hover:text-white">
+              <a href={PROFILE.cv} download={PROFILE.cvFileName} className="inline-flex items-center gap-1.5 text-sm text-gray-300 hover:text-white">
                 <FileText size={16} /> Download CV
               </a>
             </div>

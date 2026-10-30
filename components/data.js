@@ -8,6 +8,7 @@ export const PROFILE = {
   github: "https://github.com/UsefAshraf",
   linkedin: "https://www.linkedin.com/in/youssef-ashraf0/",
   cv: "/Yousef-Ashraf-CV.pdf",
+  cvFileName: "Youssef Ashraf - Full Stack Developer.pdf",
 }
 
 export const NAV_LINKS = [

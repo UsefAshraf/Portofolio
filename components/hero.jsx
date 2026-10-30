@@ -44,7 +44,7 @@ export default function Hero() {
           </Link>
           <a
             href={PROFILE.cv}
-            download
+            download={PROFILE.cvFileName}
             className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-700 text-white font-medium transition-colors hover:bg-gray-800"
           >
             <FileText size={18} /> Download CV
